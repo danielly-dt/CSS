@@ -1,0 +1,10 @@
+body{ 
+    background-color: black;
+    color:white;
+}
+.botãoenvio{
+    background-color: green;
+}
+.botãoapagar {
+    background-color: red;     
+    }
