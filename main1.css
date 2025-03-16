@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:green;
+}
+
+h2{
+    color:green; 
+
+}
+seletor{
+
+}/*propriedade: valor; sintaxe básica do css, seletor é a tag h1; propriedade color e valor a cor verde.
+o seletor não é apenas uma tag pode ser usada como classes, id, classe...*/
+
+#economy h2{
+    color:gold;
+}/*aqui usa-se o jogo da velha e o nome da id para selecionar um elemento a partir do id*/
+
+.creation-data{
+    color:red;
+}   /*aqui usa-se o ponto e o nome da classe para selecionar um elemento a partir da  classe*/ 
+
+/*existe outro seletor para selecionar todos os elementos da tela que é o asterisco*/
+* {
+    color:blue;
+
+} /* atenção o asterisco é um seletor especial usado para para marcar todos os elementos na tela  que não tem um estilo aplicado */
+
+/*atenção proxima aula vamos trabalhar com o navegador, botão direito "inspecionar" vai abrir uma tela vamos trabalhar lá*/
+
